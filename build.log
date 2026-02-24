@@ -1,0 +1,280 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Data Structures and Algorithms Portfolio                           [pom]
+[INFO] DSA :: core                                                        [jar]
+[INFO] DSA :: avl                                                         [jar]
+[INFO] DSA :: bst                                                         [jar]
+[INFO] DSA :: city-graph-navigator                                        [jar]
+[INFO] DSA :: complexity                                                  [jar]
+[INFO] DSA :: graph                                                       [jar]
+[INFO] DSA :: hash-table                                                  [jar]
+[INFO] DSA :: postfix                                                     [jar]
+[INFO] DSA :: recursion                                                   [jar]
+[INFO] DSA :: doubly-linked-list                                          [jar]
+[INFO] 
+[INFO] ---------------< com.portfolio.dsa:dsa-portfolio-parent >---------------
+[INFO] Building Data Structures and Algorithms Portfolio 1.0-SNAPSHOT    [1/11]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ dsa-portfolio-parent ---
+[INFO] 
+[INFO] -----------------------< com.portfolio.dsa:core >-----------------------
+[INFO] Building DSA :: core 1.0-SNAPSHOT                                 [2/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ core ---
+[INFO] Deleting D:\Data-Structures---Algorithms\core\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\Data-Structures---Algorithms\core\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] -----------------------< com.portfolio.dsa:avl >------------------------
+[INFO] Building DSA :: avl 1.0-SNAPSHOT                                  [3/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ avl ---
+[INFO] Deleting D:\Data-Structures---Algorithms\avl\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ avl ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\Data-Structures---Algorithms\avl\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ avl ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to D:\Data-Structures---Algorithms\avl\target\classes
+[INFO] 
+[INFO] -----------------------< com.portfolio.dsa:bst >------------------------
+[INFO] Building DSA :: bst 1.0-SNAPSHOT                                  [4/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ bst ---
+[INFO] Deleting D:\Data-Structures---Algorithms\bst\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ bst ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\Data-Structures---Algorithms\bst\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ bst ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to D:\Data-Structures---Algorithms\bst\target\classes
+[INFO] 
+[INFO] ---------------< com.portfolio.dsa:city-graph-navigator >---------------
+[INFO] Building DSA :: city-graph-navigator 1.0-SNAPSHOT                 [5/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ city-graph-navigator ---
+[INFO] Deleting D:\Data-Structures---Algorithms\city-graph-navigator\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ city-graph-navigator ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\Data-Structures---Algorithms\city-graph-navigator\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ city-graph-navigator ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to D:\Data-Structures---Algorithms\city-graph-navigator\target\classes
+[WARNING] /D:/Data-Structures---Algorithms/city-graph-navigator/src/main/java/com/portfolio/dsa/citygraphnavigator/DAGTest.java: D:\Data-Structures---Algorithms\city-graph-navigator\src\main\java\com\portfolio\dsa\citygraphnavigator\DAGTest.java uses unchecked or unsafe operations.
+[WARNING] /D:/Data-Structures---Algorithms/city-graph-navigator/src/main/java/com/portfolio/dsa/citygraphnavigator/DAGTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --------------------< com.portfolio.dsa:complexity >--------------------
+[INFO] Building DSA :: complexity 1.0-SNAPSHOT                           [6/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ complexity ---
+[INFO] Deleting D:\Data-Structures---Algorithms\complexity\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ complexity ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\Data-Structures---Algorithms\complexity\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ complexity ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to D:\Data-Structures---Algorithms\complexity\target\classes
+[INFO] 
+[INFO] ----------------------< com.portfolio.dsa:graph >-----------------------
+[INFO] Building DSA :: graph 1.0-SNAPSHOT                                [7/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ graph ---
+[INFO] Deleting D:\Data-Structures---Algorithms\graph\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ graph ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\Data-Structures---Algorithms\graph\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ graph ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to D:\Data-Structures---Algorithms\graph\target\classes
+[INFO] 
+[INFO] --------------------< com.portfolio.dsa:hash-table >--------------------
+[INFO] Building DSA :: hash-table 1.0-SNAPSHOT                           [8/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ hash-table ---
+[INFO] Deleting D:\Data-Structures---Algorithms\hash-table\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ hash-table ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\Data-Structures---Algorithms\hash-table\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ hash-table ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to D:\Data-Structures---Algorithms\hash-table\target\classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtable/HashTableLP.java: Some input files use unchecked or unsafe operations.
+[WARNING] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtable/HashTableLP.java: Recompile with -Xlint:unchecked for details.
+[INFO] 2 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/module-info.java:[1,1] package declarations not allowed in file module-info.java
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[3,17] package hashtable does not exist
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[4,17] package hashtable does not exist
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[5,18] package hashtable2 does not exist
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[37,24] cannot find symbol
+  symbol:   class Student
+  location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[54,56] cannot find symbol
+  symbol:   class Student
+  location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[21,14] cannot find symbol
+  symbol:   class Student
+  location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[38,14] cannot find symbol
+  symbol:   class Student
+  location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[46,34] cannot find symbol
+  symbol:   class Student
+  location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[58,13] cannot find symbol
+  symbol:   class HashTableLP
+  location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[58,25] cannot find symbol
+  symbol:   class Student
+  location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[58,48] cannot find symbol
+  symbol:   class HashTableLP
+  location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[59,18] cannot find symbol
+  symbol:   class Student
+  location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[66,10] cannot find symbol
+  symbol:   class Student
+  location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[74,13] cannot find symbol
+  symbol:   class Student
+  location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[79,13] cannot find symbol
+  symbol:   class HashTableDH
+  location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[79,25] cannot find symbol
+  symbol:   class Student
+  location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[79,48] cannot find symbol
+  symbol:   class HashTableDH
+  location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[80,18] cannot find symbol
+  symbol:   class Student
+  location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[87,13] cannot find symbol
+  symbol:   class Student
+  location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[95,13] cannot find symbol
+  symbol:   class Student
+  location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[INFO] 21 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Data Structures and Algorithms Portfolio 1.0-SNAPSHOT:
+[INFO] 
+[INFO] Data Structures and Algorithms Portfolio ........... SUCCESS [  0.332 s]
+[INFO] DSA :: core ........................................ SUCCESS [  1.388 s]
+[INFO] DSA :: avl ......................................... SUCCESS [  1.410 s]
+[INFO] DSA :: bst ......................................... SUCCESS [  0.436 s]
+[INFO] DSA :: city-graph-navigator ........................ SUCCESS [  0.576 s]
+[INFO] DSA :: complexity .................................. SUCCESS [  0.478 s]
+[INFO] DSA :: graph ....................................... SUCCESS [  0.348 s]
+[INFO] DSA :: hash-table .................................. FAILURE [  0.458 s]
+[INFO] DSA :: postfix ..................................... SKIPPED
+[INFO] DSA :: recursion ................................... SKIPPED
+[INFO] DSA :: doubly-linked-list .......................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.760 s
+[INFO] Finished at: 2026-02-24T16:28:01-06:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project hash-table: Compilation failure: Compilation failure: 
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/module-info.java:[1,1] package declarations not allowed in file module-info.java
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[3,17] package hashtable does not exist
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[4,17] package hashtable does not exist
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[5,18] package hashtable2 does not exist
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[37,24] cannot find symbol
+[ERROR]   symbol:   class Student
+[ERROR]   location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[54,56] cannot find symbol
+[ERROR]   symbol:   class Student
+[ERROR]   location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[21,14] cannot find symbol
+[ERROR]   symbol:   class Student
+[ERROR]   location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[38,14] cannot find symbol
+[ERROR]   symbol:   class Student
+[ERROR]   location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[46,34] cannot find symbol
+[ERROR]   symbol:   class Student
+[ERROR]   location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[58,13] cannot find symbol
+[ERROR]   symbol:   class HashTableLP
+[ERROR]   location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[58,25] cannot find symbol
+[ERROR]   symbol:   class Student
+[ERROR]   location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[58,48] cannot find symbol
+[ERROR]   symbol:   class HashTableLP
+[ERROR]   location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[59,18] cannot find symbol
+[ERROR]   symbol:   class Student
+[ERROR]   location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[66,10] cannot find symbol
+[ERROR]   symbol:   class Student
+[ERROR]   location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[74,13] cannot find symbol
+[ERROR]   symbol:   class Student
+[ERROR]   location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[79,13] cannot find symbol
+[ERROR]   symbol:   class HashTableDH
+[ERROR]   location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[79,25] cannot find symbol
+[ERROR]   symbol:   class Student
+[ERROR]   location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[79,48] cannot find symbol
+[ERROR]   symbol:   class HashTableDH
+[ERROR]   location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[80,18] cannot find symbol
+[ERROR]   symbol:   class Student
+[ERROR]   location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[87,13] cannot find symbol
+[ERROR]   symbol:   class Student
+[ERROR]   location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] /D:/Data-Structures---Algorithms/hash-table/src/main/java/com/portfolio/dsa/hashtable/hashtableapp/Test.java:[95,13] cannot find symbol
+[ERROR]   symbol:   class Student
+[ERROR]   location: class com.portfolio.dsa.hashtable.hashtableapp.Test
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :hash-table
