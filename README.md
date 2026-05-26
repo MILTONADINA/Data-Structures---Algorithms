@@ -1,61 +1,50 @@
-# Data Structures & Algorithms – Java Portfolio
+# Data Structures & Algorithms — Java Portfolio
 
-This repository is a curated collection of ten Java projects showcasing mastery of fundamental data structures and algorithms. Each module demonstrates clean, object-oriented design and practical applications relevant to computer science and software engineerin.
-
----
-
-## 🧠 Key Skills Demonstrated
-
-- Java programming with OOP design principles
-- Recursive and iterative algorithm design
-- Graph traversal, hashing, trees, and stack-based evaluation
-- Complexity analysis and data organization strategies
-- Modular Java project structure and multi-class interaction
+Ten standalone Java modules covering core data structures and algorithms, each set up as its own Maven sub-project with JUnit tests. Coursework from CS undergraduate work, refactored into a unified multi-module Maven layout for reproducible builds.
 
 ---
 
-## 📁 Subprojects Included
+## Modules
 
-| Module | Description |
-|--------|-------------|
-| 🔁 `AVL.zip` | Self-balancing AVL Tree with insertion and rotation logic |
-| 🌳 `BST_Assignment.zip` | Binary Search Tree implementation with search, insert, and delete |
-| 🗺 `CityGraphNavigator.zip` | Graph-based path navigation using adjacency lists and Dijkstra-style logic |
-| ⏱ `Complexity.zip` | Runtime complexity analysis using nested loops and mathematical operations |
-| 🔄 `DoublyLinkeLlists.zip` | Custom doubly linked list with insertion, deletion, and traversal |
-| 🌐 `Graph.zip` | Directed/undirected graph representation with BFS and DFS |
-| 🔐 `HashTableAssignment.zip` | Custom hash table using open addressing and double hashing |
-| 📬 `Postfix.zip` | Stack-based postfix expression evaluator with input validation |
-| 🔁 `Recursion.zip` | Classic recursion problems (factorial, Fibonacci, backtracking) |
-| 🧩 `doublylinked.zip` | Alternate doubly linked list variant with test scaffolding |
-
----
-
-## 🧱 Technologies Used
-
-- **Language:** Java SE
-- **Tools:** Eclipse, IntelliJ, Visual Studio Code
-- **Testing:** Manual test classes and driver files
-- **Data Structures Covered:** Arrays, Stacks, Queues, Trees, Graphs, Hash Tables, Linked Lists
-- **Algorithms Covered:** Recursion, Tree balancing, Graph traversal, Expression parsing
+| Directory                                          | Topic                | Notes                                                                     |
+| -------------------------------------------------- | -------------------- | ------------------------------------------------------------------------- |
+| [`avl/`](./avl)                                   | AVL Tree             | Self-balancing binary search tree with single + double rotations          |
+| [`bst/`](./bst)                                   | Binary Search Tree   | Insert / search / delete with traversal output                             |
+| [`city-graph-navigator/`](./city-graph-navigator) | Directed Graph       | City-routing DAG, file-driven adjacency, path queries                     |
+| [`complexity/`](./complexity)                     | Big-O Demonstrations | Empirical timing across loop nests for complexity-class illustration      |
+| [`doubly-linked-list/`](./doubly-linked-list)     | Doubly Linked List   | Insertion at head/tail/index, deletion, bidirectional traversal           |
+| [`graph/`](./graph)                               | Generic Graph        | Adjacency-list directed graph with BFS/DFS                                |
+| [`hash-table/`](./hash-table)                     | Hash Table           | Open addressing — linear probing and double hashing                       |
+| [`postfix/`](./postfix)                           | Postfix Evaluator    | Stack-based RPN evaluator with input validation                            |
+| [`recursion/`](./recursion)                       | Recursion            | Factorial, Fibonacci, and other classic recursive patterns                 |
+| [`core/`](./core)                                 | Shared utilities     | Helpers and common test scaffolding used across modules                    |
 
 ---
 
-## 🚀 How to Use
+## Build
 
-### Option 1: Individual Project Exploration
+Maven multi-module — every module can be built independently or together from the repo root.
 
-1. Download or extract any `.zip` subfolder (e.g., `AVL.zip`)
-2. Open in your IDE of choice
-3. Locate and run the `Main.java` or driver class for testing
+```bash
+# Build every module + run all tests
+./mvnw -B verify
 
-### Option 2: Explore Full Set
+# Build a single module (example: AVL)
+./mvnw -B -pl avl verify
+```
 
-1. Clone or download the full repository
-2. Unzip individual subprojects and study their structure
-3. Use for academic reinforcement, personal mastery, or interview prep
+The reactor `pom.xml` at the root wires the modules together; each module has its own `pom.xml` with module-specific dependencies and JUnit configuration.
 
 ---
 
-## 🔍 Sample Output (from Postfix Evaluation)
+## Documentation
 
+- [`system_map.md`](./system_map.md) — module-by-module index with entry points and per-module purpose.
+- [`audit_report.md`](./audit_report.md) — Phase 2 audit notes from the refactor (hardcoded paths, packaging, missing build system) and how each was addressed.
+- [`baseline_health.md`](./baseline_health.md) — pre-refactor baseline showing the original build status before Maven adoption.
+
+---
+
+## License
+
+MIT — see [`LICENSE`](./LICENSE).
